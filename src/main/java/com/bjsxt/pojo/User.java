@@ -6,6 +6,7 @@ import java.util.Objects;
 public class User implements Serializable {
     private String name;
     private String password;
+    private String gender;
 
     @Override
     public String toString() {
